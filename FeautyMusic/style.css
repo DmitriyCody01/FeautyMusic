@@ -1,0 +1,73 @@
+body {
+    font-family: 'Montserrat';
+    overflow: hidden;
+}
+
+#header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #F24D16;
+    width: 100%;
+    height: 50px;
+}
+
+#header div {
+    cursor: default;
+    word-spacing: 60px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#header div a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+    transition-duration: 200ms;
+}
+
+#header div a:hover {
+    color: #282830;
+    font-size: 30px;
+}
+
+@font-face {
+    font-family:'Montserrat' ;
+    src: url(font/Montserrat-VariableFont_wght.ttf);
+}
+
+#startTrack {
+    cursor: pointer;
+}
+
+body div {
+    text-align: center;
+    margin-top: 200px;
+}
+
+input {
+    outline: none;
+    width: 400px;
+    height: 50px;
+    font-size: x-large;
+}
+
+.app-songs {
+    border: 2px solid white;
+    font-size: xx-large;
+    font-weight: 900;
+    background-color: #F24D16;
+    color:white;
+    text-decoration: none;
+}
+
+.background {
+    z-index: -101;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1920px;
+    height: 1080px;
+    pointer-events: none;
+}

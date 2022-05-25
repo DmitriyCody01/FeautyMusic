@@ -1,0 +1,13 @@
+body {
+    font-family:'Montserrat' ;
+    text-align: center;
+}
+
+@font-face {
+    font-family:'Montserrat' ;
+    src: url(font/Montserrat-VariableFont_wght.ttf);
+}
+
+p {
+    font-size: x-large;
+}
